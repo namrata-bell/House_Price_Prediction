@@ -47,6 +47,9 @@ An end-to-end machine learning project that predicts **house prices in Indian Ru
 ```bash
 pip install -r requirements.txt
 ```
+### Training the Model
+
+Open and run `House_Price_Prediction.ipynb` in Google Colab or Jupyter Notebook.
 
 ### Running Locally
 
@@ -54,9 +57,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-### Training the Model
-
-Open and run `House_Price_Prediction.ipynb` in Google Colab or Jupyter Notebook.
 
 ## 📊 Data Processing Pipeline
 
