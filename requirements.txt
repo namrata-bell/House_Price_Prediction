@@ -1,0 +1,21 @@
+# Create requirements.txt
+requirements_content = """streamlit==1.28.0
+pandas==2.0.3
+numpy==1.24.3
+scikit-learn==1.3.0
+xgboost==2.0.0
+lightgbm==4.1.0
+catboost==1.2
+plotly==5.17.0
+"""
+
+with open('requirements.txt', 'w') as f:
+    f.write(requirements_content)
+
+print("✅ requirements.txt created")
+
+try:
+    files.download('requirements.txt')
+    print("✅ requirements.txt downloaded")
+except:
+    print("⚠️ Download manually if needed")
